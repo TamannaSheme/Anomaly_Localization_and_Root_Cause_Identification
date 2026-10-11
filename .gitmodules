@@ -1,0 +1,3 @@
+[submodule "external/AERCA"]
+	path = external/AERCA
+	url = https://github.com/hanxiao0607/AERCA.git
