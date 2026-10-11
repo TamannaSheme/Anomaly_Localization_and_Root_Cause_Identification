@@ -1,0 +1,22 @@
+{
+  "commit": "c3dd49d88568d77c3e1ecb9a40472cd77a79b930",
+  "seed": 1,
+  "command": [
+    "C:\\Users\\sheme\\Downloads\\Anomaly_Localization_and_Root_Cause_Identification\\.venv\\Scripts\\python.exe",
+    "-u",
+    "-c",
+    "import runpy,sys,torch; torch.set_num_threads(1); sys.path.insert(0,sys.argv[1]); sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0]+'/main.py',run_name='__main__')",
+    "C:\\Users\\sheme\\Downloads\\Anomaly_Localization_and_Root_Cause_Identification\\external\\AERCA",
+    "--dataset_name",
+    "linear",
+    "--device",
+    "cpu",
+    "--seed",
+    "1"
+  ],
+  "returncode": 0,
+  "runtime_seconds": 100.16992349999964,
+  "device": "cpu",
+  "torch_threads": 1,
+  "protocol": "official linear defaults; 5000 maximum epochs; official patience 20; 10 normal training/validation and 100 test sequences"
+}

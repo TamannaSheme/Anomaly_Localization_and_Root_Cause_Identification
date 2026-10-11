@@ -1,0 +1,4 @@
+seed,test_sequences,epochs_run,best_epoch,ac1,ac3,ac_star1,causal_auroc,single_source_cases
+0,100,789,769,1.0,1.0,0.96,1.0,24
+1,100,1114,1094,1.0,1.0,0.99,1.0,30
+2,100,1275,1255,1.0,1.0,0.99,1.0,28

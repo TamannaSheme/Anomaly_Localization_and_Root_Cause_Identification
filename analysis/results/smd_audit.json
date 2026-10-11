@@ -1,0 +1,45 @@
+{
+  "machine": "machine-1-1",
+  "train_shape": [
+    28479,
+    38
+  ],
+  "test_shape": [
+    28479,
+    38
+  ],
+  "event_count": 8,
+  "binary_anomalous_points": 2694,
+  "interpreted_anomalous_points": 2667,
+  "excluded_uninterpreted_points": 27,
+  "indexing": "zero-based, end-exclusive time slices; one-based dimension IDs mapped to zero-based columns",
+  "indexing_evidence": "All eight starts and seven ends match binary anomaly runs; first interpretation end is 27 samples earlier. Dimension IDs interpreted as one-based; raw IDs retained for audit.",
+  "constant_training_dimensions": [
+    5,
+    8,
+    17,
+    18,
+    27,
+    29,
+    37,
+    38
+  ],
+  "std_floor": 1e-08,
+  "task": "affected-variable localisation with supplied event intervals; not detection or true RCA",
+  "event_aggregation": "maximum absolute train-standardized z-score within each interpretation interval",
+  "selection": "machine-1-1 selected before scoring; all 8 interpretation intervals; first chronological event shown",
+  "metrics": "Hit@K: at least one labelled dimension in top K; NDCG@3: binary relevance; event-macro averages",
+  "figure_first_event": {
+    "start": 15849,
+    "end_exclusive": 16368,
+    "affected": [
+      1,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}
