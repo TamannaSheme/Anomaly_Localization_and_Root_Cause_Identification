@@ -1,0 +1,4 @@
+1. python run_experiment.py
+2. python analysis/run_smd.py
+python -c "import pandas as pd; print(pd.read_csv('analysis/results/smd_floor_sensitivity.csv'))"
+3. python analysis/summarize_aerca.py
